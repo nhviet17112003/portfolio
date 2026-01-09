@@ -6,24 +6,39 @@ html {
   scroll-behavior: smooth;
 }
 
-.glass {
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(12px);
+@layer utilities {
+  .glass {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+  }
+
+  .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 10px 40px rgba(236, 72, 153, 0.25);
+  }
+
+  .fade-in {
+    animation: fadeIn 1.2s ease forwards;
+  }
+
+  .animate-float {
+    animation: floatSlow 18s ease-in-out infinite;
+  }
+
+  .animate-float-reverse {
+    animation: floatReverse 22s ease-in-out infinite;
+  }
+
+  .animate-grid {
+    animation: gridMove 5s linear infinite;
+  }
 }
 
-.card-hover {
-  transition: all 0.3s ease;
-}
-
-.card-hover:hover {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 10px 40px rgba(236, 72, 153, 0.25);
-}
-
-.fade-in {
-  animation: fadeIn 1.2s ease forwards;
-}
-
+/* ===== KEYFRAMES ===== */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -33,4 +48,54 @@ html {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes floatSlow {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(40px, -30px) scale(1.1);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes floatReverse {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(-50px, 40px) scale(1.15);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 40px;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
+}
+
+.group:hover .animate-slide {
+  animation-play-state: paused;
 }
