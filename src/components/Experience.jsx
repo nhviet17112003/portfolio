@@ -51,6 +51,7 @@ export default function Experience() {
         "Developed full-stack solutions using PHP for backend business logic and integrated frontend interfaces for internal tools and dashboards.",
         "Designed and implemented an employee QR code system, embedding individual staff data into QR codes for ID cards, enabling instant access to employee information upon scanning.",
         "Built a comprehensive inventory and warehouse management system, including stock tracking, real-time updates, automated alerts, and reporting dashboards to optimize warehouse operations.",
+        "Managed and developed a comprehensive HR dashboard, including attendance reporting, shift scheduling, and work calendars; oversaw personnel management by region with role-based access control; administered branch offices, seasonal, and outsourced staff, ensuring operational efficiency and optimized resource allocation.",
         "Enhanced frontend components for HR, logistics, and inventory modules using HTML, CSS, JavaScript, and modern frontend practices.",
         "Designed, optimized, and maintained MySQL and SQL Server databases, ensuring data integrity, security, and fast query performance.",
         "Establish a system for assigning permissions to users based on hierarchical levels and departments within the software.",
