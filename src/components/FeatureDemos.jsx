@@ -267,7 +267,6 @@ export default function FeatureDemos() {
                 </div>
               )}
 
-              {/* ===== Todo Demo ===== */}
               {activeDemo.type === "todo" && (
                 <>
                   <div className="flex gap-2 mb-3">
@@ -307,7 +306,6 @@ export default function FeatureDemos() {
                 </>
               )}
 
-              {/* ===== Production Line Demo ===== */}
        {activeDemo.type === "production" && (
   <div className="flex flex-col space-y-6">
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
