@@ -41,7 +41,7 @@ export default function Hero() {
             {/* ===== CTA ===== */}
             <div className="flex flex-wrap gap-5">
               <a
-                href="#projects"
+                href="#experience"
                 className="
                   px-8 py-4 rounded-xl font-semibold
                   bg-gradient-to-r from-pink-500 to-purple-500
@@ -51,7 +51,7 @@ export default function Hero() {
                   transition-all duration-300
                 "
               >
-                View Projects
+                View Work Experience
               </a>
 
               <a

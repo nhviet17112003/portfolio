@@ -36,7 +36,7 @@ export default function Experience() {
     {
       title: "IT Production",
       company: "Thuan Phong Express (J&T)",
-      time: "06/2025 – Present",
+      time: "02/2025 – Present",
       short: [
         "Full-stack development with PHP & frontend frameworks",
         "CRM system maintenance and optimization",
@@ -53,8 +53,10 @@ export default function Experience() {
         "Built a comprehensive inventory and warehouse management system, including stock tracking, real-time updates, automated alerts, and reporting dashboards to optimize warehouse operations.",
         "Enhanced frontend components for HR, logistics, and inventory modules using HTML, CSS, JavaScript, and modern frontend practices.",
         "Designed, optimized, and maintained MySQL and SQL Server databases, ensuring data integrity, security, and fast query performance.",
+        "Establish a system for assigning permissions to users based on hierarchical levels and departments within the software.",
         "Implemented data synchronization between multiple databases and automated periodic backups to prevent data loss.",
         "Created dashboards and reporting tools to visualize employee activities, logistics metrics, warehouse stock levels, and system usage in real-time.",
+        "Software configuration for automatic and semi-automatic conveyor belt sorting machines for post offices and transit sorting warehouses.",
         "Worked closely with operations teams to identify workflow bottlenecks and implement software automation solutions, improving efficiency and reducing errors.",
         "Troubleshot conveyor belt systems, automated sorting machines, and IT hardware to maintain smooth operations.",
         "Resolved software and connectivity issues on thermal printers, barcode scanners, and CCTV systems, ensuring uninterrupted service.",
