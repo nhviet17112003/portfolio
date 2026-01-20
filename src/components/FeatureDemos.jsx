@@ -115,7 +115,7 @@ export default function FeatureDemos() {
   return (
     <section id="feature-demos" className="py-24 bg-black text-white">
       <div className="max-w-6xl mx-auto px-6 space-y-12">
-        <h3 className="text-4xl font-extrabold text-center">
+        <h3 className="text-4xl font-extrabold ">
           <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
             Feature Mini Demos
           </span>
@@ -126,7 +126,11 @@ export default function FeatureDemos() {
             <button
               key={d.id}
               onClick={() => openDemo(d)}
-              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 rounded-full font-semibold shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl
+    bg-gradient-to-r from-pink-500 to-purple-500
+    text-white font-semibold shadow-lg
+    hover:shadow-pink-500/40 hover:scale-105
+    transition-transform duration-300"
             >
               {d.title}
             </button>
